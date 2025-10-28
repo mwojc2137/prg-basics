@@ -4,7 +4,6 @@
 # separated by a dash character.
 #
 phone = input('Enter phone number: ')
-print(phone)
 if phone.isdigit() == False:
     print('Only use digits!')
 if phone.isdigit() == True:

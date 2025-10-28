@@ -11,4 +11,4 @@ c = input('c=')
 c = float(c)
 volume = a*b*c
 surface_area = 2*a*b+2*a*c+2*b*c
-print(f"a cuboid with sides {a}, {b} and {c} has a surface area of {surface_area}, and a volume of {volume}")
+print(f"a cuboid with sides {a}, {b} and {c} has a surface area of {round(surface_area, 2)}, and a volume of {round(volume, 2)}")
